@@ -1,0 +1,26 @@
+{
+  "name": "ai-face-access-control",
+  "version": "0.1.0-foundation",
+  "private": true,
+  "description": "AI-Based Smart Face Recognition Access Control and Intrusion Alert System — Foundation phase (auth, admin passkey login, user registration & face enrollment).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "create-admin": "node scripts/create-admin.js"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "better-sqlite3": "^11.1.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "jose": "^5.6.3",
+    "@simplewebauthn/server": "^9.0.3",
+    "@simplewebauthn/browser": "^9.0.1",
+    "face-api.js": "^0.22.2",
+    "uuid": "^9.0.1"
+  }
+}

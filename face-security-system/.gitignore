@@ -1,0 +1,8 @@
+node_modules/
+.next/
+data/*.db
+data/*.db-*
+.env.local
+public/models/*.json
+public/models/*-shard*
+!public/models/README.txt
